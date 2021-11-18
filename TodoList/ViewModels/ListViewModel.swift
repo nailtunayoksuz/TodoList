@@ -6,7 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
 class ListViewModel: ObservableObject{
+    
+    
+    
     @Published var items: [ItemModel] = []
     {
         didSet{
@@ -16,8 +20,11 @@ class ListViewModel: ObservableObject{
     let itemsKey: String = "items_list"
     
     init(){
+        
         getItems()
     }
+    
+    
     
     func getItems(){
         guard
