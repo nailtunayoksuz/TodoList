@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		797AF672274667F80046B0EE /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AF671274667F80046B0EE /* ItemModel.swift */; };
 		79ABD2452745B66300343EF3 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ABD2442745B66300343EF3 /* TodoListApp.swift */; };
 		79ABD2492745B66600343EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79ABD2482745B66600343EF3 /* Assets.xcassets */; };
 		79ABD24C2745B66600343EF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79ABD24B2745B66600343EF3 /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		797AF671274667F80046B0EE /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		79ABD2412745B66300343EF3 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79ABD2442745B66300343EF3 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		79ABD2482745B66600343EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		797AF670274667E60046B0EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				797AF671274667F80046B0EE /* ItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		79ABD2382745B66300343EF3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				79ABD2442745B66300343EF3 /* TodoListApp.swift */,
+				797AF670274667E60046B0EE /* Models */,
 				79ABD2522745B8E100343EF3 /* Views */,
 				79ABD2482745B66600343EF3 /* Assets.xcassets */,
 				79ABD24A2745B66600343EF3 /* Preview Content */,
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797AF672274667F80046B0EE /* ItemModel.swift in Sources */,
 				79ABD2582745BD8500343EF3 /* AddView.swift in Sources */,
 				79ABD2452745B66300343EF3 /* TodoListApp.swift in Sources */,
 				79ABD2542745B8FF00343EF3 /* ListView.swift in Sources */,
